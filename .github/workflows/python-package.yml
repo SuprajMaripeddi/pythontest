@@ -19,5 +19,5 @@ jobs:
           
       - name: execute py script # run sj-gobierno.py to get the latest data
         env: 
-          NAME: ${{ secrets.NAME }}
+          TOOL_NAME: ${{ secrets.TOOL_NAME }}
         run: python hi.py
