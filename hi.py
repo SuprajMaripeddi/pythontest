@@ -1,1 +1,2 @@
-UNAME =""
+UNAME ="hellloo"
+print(UNAME)
